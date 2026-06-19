@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
 body {
-  margin: 0;
+  background-color: #4e5888;
+  color: #c7ddfa;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  overflow-x: hidden;
+}
+@theme {
+  /* Custom Colors */
+  --color-darkBg: #090a0f;
+  --color-cardBg: #121420;
+  --color-accentCyan: #00f0ff;
+  --color-accentPurple: #9400ff;
 }
